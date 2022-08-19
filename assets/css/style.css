@@ -1,0 +1,19 @@
+
+
+
+.h1-top {
+    background-color:blue;
+    color: #fff;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+.city-list {
+    margin: 15px, 15px, 15px, 15px;
+    padding: 30px;
+}
+
+.city-btn {
+    width: 100%;
+}
