@@ -15,5 +15,14 @@
 }
 
 .city-btn {
+    
+}
+
+.weather-current {
+    align-items: center;
     width: 100%;
+}
+
+.weather-container {
+    display: flex;
 }
