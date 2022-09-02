@@ -16,3 +16,6 @@
 
 ### Deployed GitHub Pages Link 
 https://markanthony9014.github.io/weather-dashboard-project/
+
+#### Credit
+- Barlow (font) Designed by Jeremy Tribby

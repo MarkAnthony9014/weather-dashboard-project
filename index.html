@@ -6,47 +6,53 @@
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="https://kit.fontawesome.com/1f317cea17.js" crossorigin="anonymous"></script>
     <title>Weather Dashboard</title>
 </head>
 <body>
 
-<h1 class="h1-top">Weather Dashboard</h2>
+<h1 class="h1-top"><i class="fa-solid fa-cloud-sun-rain"></i>Weather Dashboard</h2>
 
-<main class="flex-row justify-space-between">
+<main class="container-fluid">
 
-    <div class="search-card row p-3 m-auto">
-       <div class="col-3">
+    <div class="search-card row pt-2 pb-4">
+       <div class="col-4">
         <h2>Search for a City:</h2>
-        <input type="text" class="col-12" id="city-input">
-        <button class="col-12 citySearchBtn" type="submit" id="city-search">Search</button>
+        <input type="text" class="col-12 mt-2 mb-1 rounded form-control" id="city-input">
+        <button class="col-6 citySearchBtn mt-2 btn-primary rounded" type="submit" id="city-search">Search</button>
         <br>
-        <div class="m-3">
-            <button class="col-12 mb-2 city-btn">City</button>
-            <button class="col-12 mb-2 city-btn">City</button>
-            <button class="col-12 mb-2 city-btn">City</button>
-            <button class="col-12 mb-2 city-btn">City</button>
-            <button class="col-12 mb-2 city-btn">City</button>
-            <button class="col-12 mb-2 city-btn">City</button>
-            </div>
-        </div>      
+        </div>    
 
-     <div class="weather-current col-3">
-      <div class="row">
-        <div class="col">
+     <div class="weather-current col-8">
+      <div class="">
+        <div class="col border border-info rounded bg-light">
          <h2>San Antonio (8/19/2022)</h2>
          <ul>
-         <li>Temp</li>
-         <li>Wind</li>
-         <li>Humidity</li>
-         <li>UV Index</li>
+         <li class="">Temp:</li>
+         <li>Wind:</li>
+         <li>Humidity:</li>
+         <li>UV Index:</li>
          </ul>
        </div>
-      </div> 
+      </div>
+   </div>   
+  </div> 
  
+ <div class="row">
+   <div class="mt-1 col-4">
+    <h3>Searched Cities</h3>
+    <button class="col-12 mb-2 city-btn"></button>
+    <button class="col-12 mb-2 city-btn"></button>
+    <button class="col-12 mb-2 city-btn"></button>
+    <button class="col-12 mb-2 city-btn"></button>
+    <button class="col-12 mb-2 city-btn"></button>
+    <button class="col-12 mb-2 city-btn"></button>
+    </div>
 
-    <div class="col w-100 m-3">
+   <div class="col-8">
         <h3>5-Day Forecast:</h3>
-      <div class="row" id="forecast">
+      <div id="forecast">
+
         
        
         <!-- <card class="forecastCard">

@@ -11,7 +11,7 @@ var displayCurrentWeather = function (location) {
       // request was successful
       if (response.ok) {
         response.json().then(function(data) {
-          console.log(data);
+          //console.log(data);
         });
       } else {
         alert('Error: Weather Not Found');
@@ -50,6 +50,7 @@ function getForecast (){
    fetch(apiForecast).then(function(response){
      if (response.ok) {
         response.json().then(function(data) {
+          console.log(data.coord.lat);
           displayCurrentWeather(data.coord.lat);
         });
      } else {

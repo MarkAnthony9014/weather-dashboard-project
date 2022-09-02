@@ -1,28 +1,17 @@
+* {
+    font-family: 'Barlow', sans-serif;
+}
 
-
+body {
+  background-color: #feffe0;
+  color: #a2d2f5
+}
 
 .h1-top {
-    background-color:blue;
+    background-color:#a2d2f5;
     color: #fff;
     text-align: center;
     margin: 5px;
     padding: 10px;
 }
 
-.city-list {
-    margin: 15px, 15px, 15px, 15px;
-    padding: 30px;
-}
-
-.city-btn {
-    
-}
-
-.weather-current {
-    align-items: center;
-    width: 100%;
-}
-
-.weather-container {
-    display: flex;
-}
